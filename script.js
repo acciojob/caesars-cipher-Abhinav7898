@@ -19,11 +19,15 @@
 			let temp = lookup[ele];
 			decodedArr.push(temp);
 		});
-	  return decodedArr;//return decodedArr
+		var str = "";
+	    for(let i=0;i<decodedArr.length;i++){
+	        str+=decodedArr[i];
+	    }
+	  return str;//return decodedArr
 	}
 	
 	// You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 	
 	//console.log(rot13("SERR YBIR? NPPVBWBO"));
 	
-	//module.exports = rot13;
+	module.exports = rot13;
