@@ -18,7 +18,7 @@
 			ele = ele.toUpperCase();
 			let temp = lookup[ele];
 			decodedArr.push(temp);
-		})
+		});
 	  return decodedArr;//return decodedArr
 	}
 	
