@@ -26,4 +26,4 @@
 	
 	//console.log(rot13("SERR YBIR? NPPVBWBO"));
 	
-	module.exports = rot13;
+	module.exports = rot13("SERR YBIR? NPPVBWBO");
